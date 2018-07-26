@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>webpage</title>
+	<link rel = stylesheet type ="text/css" href ="style.css">
+	<script type="text/javascript" src="script.js"></script>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+$("#run").click(function() {
+var r=$("input:radio[name=lang]:checked").val();
+var q = $("#inpu").val();
+$.ajax({
+ type:"GET",
+ url:"copy.php",
+ data:{query:q,radio:r},
+ cache:false,
+ success:function(data){
+$("#outp").empty();
+$("#outp").val(data);
+}
+})
+})
+})
+</script>
+</head>
+<body>
+
+    <div style="float:left; display: inline-block;">
+	<h1 class="font"  style="text-align:left">Input Code</h1>
+  		<textarea id="inpu"name="ip" class="t textarea" placeholder="input..."></textarea>
+	
+    </div>
+    <div style="display: inline-block; ">
+        <button  type="submit" name="r" id="run" class="button">run</button>
+    </div>
+    
+    <div  style="float:right">
+	<h1 class="font" style="text-align:center">Output</h1>
+                <textarea id="outp"class="t textarea" placeholder="output..."></textarea>
+    </div>
+    <div style="float:right; display: inline-block;">
+        <button id="reset" name="rst" class="button" onClick="func()">reset</button>
+    </div>
+    
+</form>
+<form action="">
+<div style="margin: 100px 80px 80px 130px; display: inline-block;">
+ <input id="r1" type="radio" name="lang" value="c"> C<br>
+ <input id="r2" type="radio" name="lang" value="c++"> C++<br>
+  <input id="r3" type="radio" name="lang" value="j"> JAVA<br>
+  <input id="r4" type="radio" name="lang" value="p"> PYTHON<br>
+</div>
+</form>
+    
+
+</body>
+</html>

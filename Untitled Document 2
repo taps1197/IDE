@@ -1,0 +1,6 @@
+#include<stdio.io>
+ void main()
+{
+printf("HELLO");
+}
+

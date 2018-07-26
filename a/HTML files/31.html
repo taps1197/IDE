@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>video</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		.textarea{
+			width :40%;
+			height: 400px;
+			padding: 0px;
+			margin: 0px 4.5%;
+			overflow-y:scroll;
+		}
+		#submit:hover{
+			color: red;
+
+		}
+	</style>
+</head>
+<body>
+<div class="video-container">
+	   <video autoplay loop muted="" controls=""  style="width: 100%;height: 100%;">
+		     <source src="D:\wamp64\www\a\video\a.mp4" type="video/mp4">
+		     Your browser does not support the video tag.
+	   </video>	   
+</div>
+<div>
+
+<form action="" method="get">
+	<fieldset>
+	<legend>IDE</legend>
+	<textarea id= "txt1" class="textarea" placeholder="Enter Your code here"></textarea>
+	<textarea id= "txt2"class="textarea"></textarea>
+	<input type="submit" id="submit" value="RUN" onclick="runcode()">
+	
+		
+	</fieldset>
+
+</form>
+
+</div>
+
+
+
+</body>
+<script>
+	function runcode(){
+		var txt1 = document.getElementByID("txt1")
+		var content1 = txt1.value;
+
+		
+	}
+
+
+</script>
+</html>

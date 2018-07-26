@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>IDE:c,c++</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/master.css">
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script> -->
+
+
+  </head>
+  <body>
+    <div class="main">
+       <div class="navbar">
+         <a href="#">ABOUT US</a>
+         <input type="submit" class="tryide" value="TRY OUR IDE">
+            <div class="mininav" >
+                <a href="#">DS PROJECT</a>
+                <a href="#">IIIT BBSR</a>
+                <a href="#">WHAT'S SUDHA 5.2?</a>
+                <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;height:20px;float:right;padding:10px 20px 20px 20px;margin:5px 5px;">LOGIN</button>
+            </div>
+      </div>
+      <div id="id01" class="modal">
+
+        <form class="modal-content animate" action="/action_page.php">
+          <div class="imgcontainer">
+            <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+            <img src="media/avatar.png" alt="avatar" class="avatar">
+          </div>
+
+          <div class="container">
+            <label><b>Username</b></label>
+            <input type="text" placeholder="Enter Username" name="uname" required>
+
+            <label><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" action="loginwithsql.php" required>
+
+            <button type="submit">Login</button>
+            <input type="checkbox" checked="checked"> Remember me
+          </div>
+
+          <div class="container" style="background-color:#f1f1f1">
+            <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+            <span class="psw">Forgot <a href="#">password?</a></span>
+          </div>
+        </form>
+      </div>
+      <div class="video" >
+
+        <div class="searchbar">
+          <form>
+            <input type="text" name="search" class="searcharea" placeholder="Search..">
+            <input type="submit" name="searchbutton" class="searchbutton" value="search" style="display:none;">
+          </form>
+
+        </div>
+        <video src="media/a.mp4" loop width="100%" autoplay muted  >
+          Your browser does't support video
+        </video>
+      </div>
+      <div id="IDE" class="IDE" style="display:none;">
+
+            <legend>IDE</legend>
+            <textarea name="txt1" class="textarea1" id="inpu" placeholder="Enter your code here"></textarea>
+            <textarea name="txt2" class="textarea2" id="outp" disabled=""></textarea><br>
+            <input type="submit" id="run" name="submit" class="submit" value="submit" >
+            <input type="submit" name="reset" class="reset" value="reset">
+            <input type="submit" name="upload" class="upload"  value="upload">
+            
+
+<form action="" style="color: white; float:left">
+<label class="radio-inline">
+<table>
+<tr>
+ <td><input id="r1" type="radio" name="lang" value="c">C</td>
+  <td><input id="r2" type="radio" name="lang" value="c++">C++</td>
+  <td><input id="r3" type="radio" name="lang" value="j">Java</td>
+  <td><input id="r4" type="radio" name="lang" value="p">python</td>
+  <td><a href='ray.html' >try basic version</a></td>
+</tr>
+</table>
+</form>
+	
+		
+	   
+ </div>
+    </div>
+
+
+
+
+    <script type="text/javascript" src="scripts/jquery.js"></script>
+    <script type="text/javascript" src="scripts/script.js"></script>
+  </body>
+
+</html>

@@ -1,0 +1,134 @@
+{\rtf1\ansi\ansicpg10000\deff0\deflang1033\deflangfe1033{\fonttbl{\f0\fswiss\fprq2\fcharset0 Arial;}{\f1\fmodern\fcharset0 Courier New;}{\f2\fnil\fprq2\fcharset0 Arial;}}
+{\colortbl ;\red0\green0\blue0;}
+{\stylesheet{ Normal;}{\s1 heading 1;}{\s2 heading 2;}}
+\viewkind4\uc1\pard\nowidctlpar\qc\b\f0\fs28\par
+ADOBE\'ae PHOTOSHOP\'ae 7.0 READ ME\par
+\pard\nowidctlpar\b0\fs20  \par
+\par
+\cf1 This file contains last-minute product information, updates to the Adobe Photoshop documentation, and troubleshooting tips. Please refer to the user guide for installation instructions. For further troubleshooting and performance information, see the user guide or online Help.  This file also covers the Adobe ImageReady component.\par
+\par
+\ul\b Important:\ulnone  \b0 Please complete your registration card and mail it today or use the online registration software provided with Adobe Photoshop software to register your copy. You must register to receive technical support and important product update information.\par
+  \par
+\cf0\ul\b Serial Numbers \par
+\ulnone\b0\par
+You can find the 24-digit serial number (e.g. 0000 0000 0000 0000 0000 0000) on the registration card or on the inside cover of your CD holder.  Use this number to install Photoshop.\par
+\par
+\pard If you are upgrading from an earlier version of Adobe Photoshop, you will need to use the new 24-digit serial number which you can find on the inside cover of your CD holder that comes with the Photoshop 7.0 upgrade package.  Note: the serial number you used to install previous versions of Photoshop will not work to install Photoshop 7.0.\par
+\par
+\pard\nowidctlpar If you are upgrading from a version of Photoshop prior to Photoshop 4.0, you will need to contact customer service at 800-492-3623.\par
+\par
+If you are upgrading from Adobe Photoshop LE or Photoshop Elements, please use the serial number located on the registration card or on the inside cover of the CD holder included in your Photoshop 7.0 upgrade package. If your new 24-digit serial number does not work please contact Adobe Systems at 800-492-3623.\par
+ \par
+\pard\keepn\s1\ul\b Optional Extensions and Plug-Ins\par
+\pard\ulnone\b0\par
+Several optional extensions are included in the Optional Extensions folder, which is located on the Adobe Photoshop 7.0 Application CD-ROM in the Goodies folder. These extensions let you customize and enhance the Adobe Photoshop program in a variety of ways. For more information, see the Read Me files included with the optional extensions.\par
+\par
+There are also several optional plug-in modules included on the Adobe Photoshop 7.0 Application CD-ROM in the Optional Plug-Ins folder within the Goodies folder. Included in this folder are some additional file format and export plug-ins as well as filter plug-ins.\par
+\par
+You will receive error messages if you set your additional plug-ins folder to use your Photoshop 6.0 plug-ins.\par
+\pard\nowidctlpar\par
+\ul\b Initialization and Preferences Files\par
+\ulnone\b0\par
+You can find the Photoshop 7.0 preference files in the following locations:\par
+\par
+\pard\nowidctlpar\sl240\slmult0 Windows 98: \par
+Windows\\Application Data\\Adobe\\Photoshop\\7.0\\Adobe Photoshop 7.0 Settings\par
+\par
+Windows NT: \par
+WinNT\\profiles\\<username>\\Application Data\\Adobe\\Photoshop\\7.0\\Adobe Photoshop 7.0 Settings\par
+\par
+Windows 2000 and XP:\par
+C:\\Documents and Settings\\<username>\\Application Data\\Adobe\\Photoshop\\7.0\\Adobe Photoshop 7.0 Settings\par
+\par
+Note:  The Application Data folder is a hidden folder and not visible by default.  If you do not see the Application Data folder, go to Windows Explorer>Tools>Folder Options>View and check the option View Hidden Files and Folders.\par
+\par
+Note: Many preferences are now in the Windows registry.  To reset your Photoshop preferences you can hit Shift-Ctrl-Alt upon startup.  \par
+\pard\nowidctlpar\par
+\ul\b Installation Requirements\par
+\ulnone\b0\par
+When installing Photoshop to a hard drive other than your system or boot drive (usually C:), you will still need to have at least 65-70MB free on your system drive to proceed with installation, regardless of how much space is on your installation drive.\par
+\ul\b\par
+\par
+\ulnone\fs24 Using Adobe Photoshop with Windows\'ae\par
+\b0\fs20  \par
+The following sections include useful information about using Adobe Photoshop 7.0 software with different versions of Windows. (Please note that Photoshop 7.0 does not support Windows 3.1.x or Windows 95.)\par
+\par
+\ul\b Shared Files\par
+\ulnone\b0  \par
+Many files installed by Photoshop - such as TWAIN support files and MSVCRT*.* files (Microsoft runtime files) are shared with other programs. When you install or uninstall other programs that use these shared files, the file versions used by Photoshop may be overwritten or deleted. If you experience problems with features that depend on shared files, reinstall Photoshop.\par
+\par
+\ul\b Windows NT\par
+\ulnone\b0  \par
+Adobe Photoshop 7.0 can be run under Windows NT\'ae for Intel compatible systems only. It will not run under other types of Windows NT such as Windows NT for DEC Alpha or Windows NT for PowerPC\'ae.\par
+\par
+Adobe Photoshop 7.0 requires Windows NT Service Pack 6a or higher.\par
+\par
+\ul\b Windows 2000\par
+\ulnone\b0  \par
+Adobe Photoshop 7.0 requires Windows 2000 Service Pack 2 or higher.\par
+\par
+\ul\b File Associations\par
+\par
+\ulnone\b0 The Photoshop 7.0 installer allows you to associate file types with either Photoshop or ImageReady. When you associate a file type with an application, you specify which application will open when a file of that type is double-clicked on the desktop or in the Windows Explorer. Windows allows all its applications to associate themselves to various file types. If you choose the defaults in the Photoshop installer, you may find that Photoshop or ImageReady will open instead of another application when you double click on certain files. The Photoshop installer allows you to turn off this association with Photoshop or ImageReady if you prefer. To do so, click on each file type you do not want to associate and, for each type, choose "Do not change". \par
+\par
+If you wish to change your file associations after installing Photoshop, please refer to the document, "How to Change File Associations in Windows" in the Adobe Systems Technical Solutions Database on the Adobe website, at this location: \ul http://www.adobe.com/support/techdocs/ac22.htm\ulnone .\par
+\pard\nowidctlpar\tx5940\par
+\ul\b Running Adobe Photoshop Over a Network \par
+\ulnone\b0  \par
+Adobe Photoshop 7.0 is not designed (nor was it tested) to be run when Windows is multi-launched over a network. If you want to run Adobe Photoshop on multiple Windows systems, make sure that each system has its own copy of Windows and Adobe Photoshop installed on the hard drive.\par
+ \par
+\pard\ul\b Language Settings (Windows XP and 2000 Only)\par
+\ulnone\b0\par
+If you are using the English version of Windows XP or 2000 and add Chinese Traditional, Chinese Simplified, Korean, or Japanese language components, you must set the language correctly in the Control Panel. For Windows XP, set the Language for non-Unicode programs in the Regional and Language Options control panel Advanced tab and on Windows 2000, set the System Locale using the Regional control panel, General tab, Set default button.  Both systems will then require a reboot. If the language is not set correctly, you will experience display problems with text, file I/O, and Web features.\par
+\pard\nowidctlpar\tx5940\par
+\b\fs24\par
+Improving Performance and Troubleshooting\par
+\b0\fs20\par
+\pard\nowidctlpar The following sections describe how to improve your system's performance when working with Adobe Photoshop 7.0, and how to correct some common problems which may occur.  For up to date information on optimizing Photoshop performance, refer to the document #318243, "Optimizing Performance in Photoshop for Windows", available online at http://www.adobe.com/support/techdocs/12dde.htm.\par
+\par
+\ul\b Fonts, Color Profiles and Application Startup Time\ulnone\b0\par
+\par
+Upon startup, Photoshop must enumerate all of the fonts that will be available for the Type tools. If you have a large number of fonts installed on your system, this can cause Photoshop to take longer to startup. If you find the startup time for Photoshop 7.0 to be too long, you should remove any unused fonts from your system.  \par
+\par
+Likewise, all Color Profiles installed on the system must be read.  Uninstall or remove any color profiles you will not be actively using to speed up the application startup time.\par
+\par
+\pard\nowidctlpar\tx5940\ul\b Compressed Drives and Virtual Memory \par
+\ulnone\b0  \par
+Adobe Systems recommends that you do not set either the Windows swap file or Adobe Photoshop's scratch disk to a compressed disk drive. On Windows NT, it is recommended you do not set your page file to the same disk as your primary scratch disk.  For more information, see the user guide.\par
+\par
+\par
+\pard\keepn\s2\b\fs24 Scripting Photoshop\par
+\pard\b0\fs20\par
+Download and install Adobe Photoshop Scripting Support so you can write and run scripts in Photoshop 7.0.  Scripts can be written in Visual Basic or JavaScript on Windows.\par
+\par
+Scripts let you automate operations in Photoshop.  They can range from simple manipulation of a single selected object to complex control of multiple documents.  You can even create workflows across multiple applications.\par
+\par
+Please go to \ul <http://www.adobe.com/products/photoshop/main.html>\ulnone  to download the scripting plug-in and for additional information.\par
+\pard\nowidctlpar\tx5940\par
+\pard\nowidctlpar\par
+\b\fs24 Compatibility Issues\par
+\par
+\ul\fs20 Graphics Card Issues\ulnone\b0\par
+\par
+A variety of graphics card drivers may provide intermittent cursor display problems. These problems can include flickering cursors, on-screen artifacts, and cursors that don't immediately update when a new tool or cursor type is chosen. None of these display issues will affect the functionality of Photoshop. If you are experiencing any of these problems with your own graphics card, ensure that you have the latest driver for the card.\par
+\par
+\pard\nowidctlpar\tx360\ul\b Miscellaneous Installer Issues\par
+\ulnone\b0\par
+\pard\nowidctlpar\sb100\sa100 Windows 2000 and XP do not allow certain sections of the registry to be written to by users without administrative privileges. It is recommended that only those with administrator privileges and those that are logged on as administrator install Photoshop 7.0 on Windows 2000 or XP.\par
+\par
+\b\fs24 Undocumented Photoshop Features\b0\fs20\par
+\pard\par
+\ul\b View Merged/Flattenend Data\protect\par
+\ulnone\b0\par
+Holding down the Alt\protect0 +Shift\protect  key\protect0 s\protect  while opening a file in a format that supports layers will prompt a request to read the flattened composite data instead of the layered version. This applies when choosing a file from File > Recent Files, when opening a file from the File Browser or opening a file via File > Open or File > Open As.\f1\par
+\protect0\pard\protect\nowidctlpar\b\protect0\f0\fs24\par
+\b0\fs20 ------------------------------------------------------------\par
+\par
+Copyright (c) 1989-2002 Adobe Systems Incorporated. All rights reserved.\par
+\pard\nowidctlpar\sb100\sa100 Adobe, Illustrator, ImageReady, ImageStyler, PageMaker, and Photoshop are either registered trademarks or trademarks of Adobe Systems Incorporated in the United States and/or other countries. Microsoft Windows and Windows NT are either registered trademarks or trademarks of Microsoft Corporation in The United States and/or other countries. IBM, PowerPC, and OS/2 are registered trademarks of International Business Machines Corporation. Kodak and Photo CD are trademarks of Eastman Kodak Co. Portions \'a9 Eastman Kodak Co., 1996, 1998. All trademarks noted herein are either the property of Adobe Systems Incorporated, PANTONE, Inc. or their respective companies.  Six-color Process System Patent Pending - PANTONE, Inc. Portions (c) Dainippon Ink and Chemicals, Incorporated 1967, 1988. \par
+\pard\nowidctlpar\par
+\pard\nowidctlpar\tx60 -------------------------------------------------------------\par
+\pard\nowidctlpar\par
+\pard 03/18/02\b\f2\fs28\par
+}
+ 

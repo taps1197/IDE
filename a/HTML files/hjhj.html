@@ -1,0 +1,28 @@
+
+<a name="search"></a>
+<div class="center-search">
+ <input type="text" name="search" placeholder="Search.." class="search">
+ <input type="submit" name="search-button" placeholder="search" style="width: 10em;background-color: white;color: black;" onclick="search()" >
+</div>
+<script type="text/javascript">
+	function search() {
+		var q= $(".search").val();
+		console.log(q);
+		$.ajax({
+			type:"GET",
+			url:"http://localhost/a/search.php",
+			data:{q:q},
+			CrossDomain:true,
+			cache:false,   
+			//dataType:"json",
+			success:function(data) {
+			//	$.each(data,function(i,user){
+				$("#txt1").empty();
+					$("#txt1").append(data);
+				//})
+				//$("#txt1").append(data);
+				//console.log(data);
+			}
+		})
+	}
+</script>

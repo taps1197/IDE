@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>video</title>
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		.textarea{
+			width :40%;
+			height: 400px;
+			padding: 0px;
+			margin: 0px 4.5%;
+			overflow-y:scroll;
+		}
+		
+		#submit:hover{
+			color: red;
+
+		}
+
+	</style>
+</head>
+<body>
+<nav class= "w3-bar w3-black" style="position: fixed;" >
+  <a href="#home" class="w3-button w3-bar-item">Home</a>
+  <a href="#band" class="w3-button w3-bar-item">Band</a>
+  <a href="#tour" class="w3-button w3-bar-item">Tour</a>
+  <a href="#contact" class="w3-button w3-bar-item">Contact</a>
+</nav>
+<div class="video-container" style="display: block;">
+	   <video autoplay loop muted="" controls=""  style="width: 100%;height: 100%;">
+		     <source src="D:\wamp64\www\a\video\a.mp4" type="video/mp4">
+		     Your browser does not support the video tag.
+	   </video>	   
+</div>
+<div>
+<style>     
+input[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #e6e6e6;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: green;                               
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    margin: 15px 15px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 60%;
+}
+</style>
+
+
+
+
+
+
+<form>
+  <input type="text" name="search" placeholder="Search..">
+</form>
+<script type="text/javascript">
+	
+</script>
+
+</div>
+<div>
+
+
+
+<form action="" method="get">
+	<fieldset>
+	<legend>IDE</legend>
+	<textarea id= "txt1" class="textarea" placeholder="Enter Your code here"></textarea>
+	<textarea id= "txt2"class="textarea"></textarea>
+	<input type="submit" id="submit" value="RUN" onclick="runcode()">
+	
+		
+	</fieldset>
+
+</form>
+
+</div>
+
+
+
+</body>
+<script>
+	function runcode(){
+		var txt1 = document.getElementByID("txt1")
+		var content1 = txt1.value;
+
+		
+	}
+
+
+</script>
+</html>
